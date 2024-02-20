@@ -84,6 +84,6 @@
 
 ## Overview
 
-<img src="images/architecture/arch_v3_workshops.jpg" />
+<img src="https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/images/architecture/arch_v3_workshops.jpg" />
 
 
