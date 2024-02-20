@@ -1,6 +1,6 @@
 # Data Engineering Zoomcamp
 
-### [Module 1: Containerization and Infrastructure as Code]
+### Module 1: Containerization and Infrastructure as Code
 
 * Course overview
 * Introduction to GCP
@@ -11,7 +11,7 @@
 
 
 
-### [Module 2: Workflow Orchestration](02-workflow-orchestration/)
+### Module 2: Workflow Orchestration
 
 * Data Lake
 * Workflow orchestration
@@ -19,7 +19,7 @@
 
 
 
-### [Workshop 1: Data Ingestion](cohorts/2024/workshops/dlt.md)
+### Workshop 1: Data Ingestion
 
 * Reading from apis
 * Building scalable pipelines
@@ -29,7 +29,7 @@
 
 
 
-### [Module 3: Data Warehouse](03-data-warehouse/)
+### Module 3: Data Warehouse
 
 * Data Warehouse
 * BigQuery
@@ -40,7 +40,7 @@
 
 
 
-### [Module 4: Analytics engineering](04-analytics-engineering/)
+### Module 4: Analytics engineering
 
 * Basics of analytics engineering
 * dbt (data build tool)
@@ -54,7 +54,7 @@
 
 
 
-### [Module 5: Batch processing](05-batch/)
+### Module 5: Batch processing
 
 * Batch processing
 * What is Spark
@@ -62,16 +62,13 @@
 * Spark SQL
 * Internals: GroupBy and joins
 
-[More details](05-batch/)
 
-### [Module 6: Streaming](06-streaming/)
+### Module 6: Streaming
 
 * Introduction to Kafka
 * Schemas (avro)
 * Kafka Streams
 * Kafka Connect and KSQL
-
-[More details](06-streaming/)
 
 
 ## Overview
