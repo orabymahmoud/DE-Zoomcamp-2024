@@ -83,9 +83,9 @@ default:
   POSTGRES_CONNECT_TIMEOUT: 10
   POSTGRES_DBNAME: postgres
   POSTGRES_SCHEMA: public # Optional
-  POSTGRES_USER: postgres.vffircbjrvqwzhtvxoko
-  POSTGRES_PASSWORD: Of@%6508390
-  POSTGRES_HOST: aws-0-us-west-1.pooler.supabase.com
+  POSTGRES_USER: username
+  POSTGRES_PASSWORD: password
+  POSTGRES_HOST: hostname
   POSTGRES_PORT: 5432
   # Qdrant
   QDRANT_COLLECTION: collection
