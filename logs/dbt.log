@@ -1,0 +1,125 @@
+[0m01:48:25.450529 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A7DD417C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A00B7EC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A00B7EC40>]}
+
+
+============================== 01:48:25.458530 | fee44c93-df8c-4fa7-8c64-dbf221f46c8e ==============================
+[0m01:48:25.458530 [info ] [MainThread]: Running with dbt=1.7.4
+[0m01:48:25.460555 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Oraby\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init ny_taxi_dbt', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:48:25.461554 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Oraby/.dbt')}
+[0m01:48:25.463532 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m01:48:25.469061 [debug] [MainThread]: Starter project path: C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m01:48:25.924240 [info ] [MainThread]: 
+Your new dbt project "ny_taxi_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:48:25.927236 [info ] [MainThread]: Setting up your profile.
+[0m01:50:55.460659 [info ] [MainThread]: Profile ny_taxi_dbt written to C:\Users\Oraby\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:50:55.463666 [debug] [MainThread]: Command `dbt init` succeeded at 01:50:55.463666 after 150.02 seconds
+[0m01:50:55.464666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A7DD417C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A00BD1130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A00C56EB0>]}
+[0m01:50:55.466675 [debug] [MainThread]: Flushing usage events
+[0m01:58:07.743307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1881711F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D18AE9ADC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D18AE9AA00>]}
+
+
+============================== 01:58:07.750303 | 34fa2e58-f1d5-452f-8fa5-39c200f9b650 ==============================
+[0m01:58:07.750303 [info ] [MainThread]: Running with dbt=1.7.4
+[0m01:58:07.752303 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Oraby\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:58:07.753302 [info ] [MainThread]: dbt version: 1.7.4
+[0m01:58:07.754304 [info ] [MainThread]: python version: 3.9.0
+[0m01:58:07.756302 [info ] [MainThread]: python path: C:\Users\Oraby\AppData\Local\Programs\Python\Python39\python.exe
+[0m01:58:07.757305 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m01:58:08.055998 [info ] [MainThread]: Using profiles dir at C:\Users\Oraby\.dbt
+[0m01:58:08.058004 [info ] [MainThread]: Using profiles.yml file at C:\Users\Oraby\.dbt\profiles.yml
+[0m01:58:08.059023 [info ] [MainThread]: Using dbt_project.yml file at E:\Data\Projects\DE-Zoomcamp-2024\dbt_project.yml
+[0m01:58:08.062015 [info ] [MainThread]: adapter type: postgres
+[0m01:58:08.065002 [info ] [MainThread]: adapter version: 1.7.4
+[0m01:58:08.068000 [info ] [MainThread]: Configuration:
+[0m01:58:08.072007 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m01:58:08.075002 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m01:58:08.077002 [info ] [MainThread]: Required dependencies:
+[0m01:58:08.078997 [debug] [MainThread]: Executing "git --help"
+[0m01:58:08.167565 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m01:58:08.168563 [debug] [MainThread]: STDERR: "b''"
+[0m01:58:08.168563 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m01:58:08.170570 [info ] [MainThread]: Connection:
+[0m01:58:08.171563 [info ] [MainThread]:   host: aws-0-us-west-1.pooler.supabase.com
+[0m01:58:08.173568 [info ] [MainThread]:   port: 5432
+[0m01:58:08.174561 [info ] [MainThread]:   user: postgres.vffircbjrvqwzhtvxoko
+[0m01:58:08.175565 [info ] [MainThread]:   database: postges
+[0m01:58:08.177563 [info ] [MainThread]:   schema: trips_data_all
+[0m01:58:08.178568 [info ] [MainThread]:   connect_timeout: 10
+[0m01:58:08.179569 [info ] [MainThread]:   role: None
+[0m01:58:08.181564 [info ] [MainThread]:   search_path: None
+[0m01:58:08.183567 [info ] [MainThread]:   keepalives_idle: 0
+[0m01:58:08.186569 [info ] [MainThread]:   sslmode: None
+[0m01:58:08.189565 [info ] [MainThread]:   sslcert: None
+[0m01:58:08.190561 [info ] [MainThread]:   sslkey: None
+[0m01:58:08.191570 [info ] [MainThread]:   sslrootcert: None
+[0m01:58:08.193564 [info ] [MainThread]:   application_name: dbt
+[0m01:58:08.194562 [info ] [MainThread]:   retries: 1
+[0m01:58:08.195570 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m01:58:08.197569 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m01:58:08.199567 [debug] [MainThread]: Using postgres connection "debug"
+[0m01:58:08.201567 [debug] [MainThread]: On debug: select 1 as id
+[0m01:58:08.203565 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:58:28.927798 [error] [MainThread]: Encountered an error:
+
+[0m01:58:29.095871 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\base\connections.py", line 241, in retry_connection
+    connection.handle = connect()
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\postgres\connections.py", line 137, in connect
+    handle = psycopg2.connect(
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "aws-0-us-west-1.pooler.supabase.com" (52.8.172.168), port 5432 failed: timeout expired
+connection to server at "aws-0-us-west-1.pooler.supabase.com" (54.177.55.191), port 5432 failed: timeout expired
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\cli\requires.py", line 90, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\cli\requires.py", line 75, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\cli\main.py", line 444, in debug
+    results = task.run()
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\task\debug.py", line 153, in run
+    connection_status = self.test_connection()
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\task\debug.py", line 472, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\task\debug.py", line 450, in attempt_connection
+    adapter.debug_query()
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\postgres\impl.py", line 152, in debug_query
+    self.execute("select 1 as id")
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\base\impl.py", line 310, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\sql\connections.py", line 138, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\sql\connections.py", line 79, in add_query
+    cursor = connection.handle.cursor()
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\contracts\connection.py", line 90, in handle
+    self._handle.resolve(self)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\contracts\connection.py", line 114, in resolve
+    return self.opener(connection)
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\postgres\connections.py", line 162, in open
+    return cls.retry_connection(
+  File "C:\Users\Oraby\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\adapters\base\connections.py", line 241, in retry_connection
+    connection.handle = connect()
+KeyboardInterrupt
+
+[0m01:58:29.105878 [debug] [MainThread]: Command `dbt debug` failed at 01:58:29.104869 after 21.65 seconds
+[0m01:58:29.106871 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m01:58:29.109878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1881711F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D18B0C6D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D18B0C6CD0>]}
+[0m01:58:29.110877 [debug] [MainThread]: Flushing usage events

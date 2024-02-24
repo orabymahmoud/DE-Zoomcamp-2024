@@ -36,5 +36,5 @@ spark_config: {}
 tags: []
 type: python
 uuid: week_4__analytics_engineering
-variables_dir: /home/codespace/.mage_data/ny_taxi
+variables_dir: C:\Users\Oraby/.mage_data\ny_taxi
 widgets: []
